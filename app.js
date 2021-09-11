@@ -24,7 +24,7 @@ function clickHandler() {
         var translatedText = json.contents.translated;
         outputDiv.inerText = translatedText;
     })
-    .catch(errorHandler)
-}
+        .catch(errorHandler)
+};
 
 btnTranslate.addEventListener("click", clickHandler)

@@ -22,9 +22,9 @@ function clickHandler() {
     .then(response => response.json())
     .then(json => {
         var translatedText = json.contents.translated;
-        outputDiv.inerText = translatedText;
-    })
-        .catch(errorHandler)
+        outputDiv.innerText = translatedText;
+        })
+    .catch(errorHandler)
 };
 
-btnTranslate.addEventListener("click", clickHandler)
+btnTranslate.addEventListener("click", clickHandler);

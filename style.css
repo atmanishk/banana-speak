@@ -7,13 +7,16 @@
 :root {
     --primary: #F2C94C;
     --black: #333333;
-    --width-break:600px
+    --width-break: 600px
 }
 
 body {
     margin: 1rem;
     font-family: 'Gluten', cursive;
     color: #333333;
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
     text-align: center;
 }
 
